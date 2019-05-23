@@ -7,7 +7,7 @@
     <ProjectGuid>{4501FA4B-0B4C-430E-AAD1-AA2A426E050D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LawsonOperationResult</RootNamespace>
+    <RootNamespace>Lawson.OperationResult</RootNamespace>
     <AssemblyName>OperationResult</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,33 +41,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbBoolResult.cs" />
-    <Compile Include="DbQueryResult.cs" />
-    <Compile Include="DbResult.cs" />
-    <Compile Include="DbSingleResult.cs" />
-    <Compile Include="DBSupport\DbBoolResult.cs" />
-    <Compile Include="DBSupport\DbQueryResult.cs" />
-    <Compile Include="DBSupport\DbResult.cs" />
-    <Compile Include="DBSupport\DbSingleResult.cs" />
-    <Compile Include="DBSupport\RecordRange.cs" />
-    <Compile Include="DBSupport\UsableEntity.cs" />
-    <Compile Include="Interfaces\IMessageOperationException.cs" />
+    <Compile Include="Interfaces\IOperationMetaTextResult.cs" />
+    <Compile Include="Interfaces\IOperationMetaTextResults.cs" />
     <Compile Include="Interfaces\IMessageOperationResult.cs" />
-    <Compile Include="Interfaces\IPersistenceBoolResult.cs" />
-    <Compile Include="Interfaces\IPersistenceOperationResult.cs" />
-    <Compile Include="Interfaces\IPersistenceQueryResult.cs" />
-    <Compile Include="Interfaces\IPersistenceResult.cs" />
-    <Compile Include="Interfaces\IPersistenceSingleResult.cs" />
-    <Compile Include="MessageOperations\MessageOperationException.cs" />
-    <Compile Include="MessageOperations\MessageOperationResult.cs" />
-    <Compile Include="Persistence\PersistenceBoolResult.cs" />
-    <Compile Include="Persistence\PersistenceOperationResult.cs" />
-    <Compile Include="Persistence\PersistenceQueryResult.cs" />
-    <Compile Include="Persistence\PersistenceResult.cs" />
-    <Compile Include="Persistence\PersistenceSingleResult.cs" />
+    <Compile Include="Interfaces\IQueryOperationMetaResults.cs" />
+    <Compile Include="OperationMetaResult\BoolOperationMetaResult.cs" />
+    <Compile Include="Interfaces\IBoolOperationMetaResult.cs" />
+    <Compile Include="Interfaces\IOperationMetaResultBase.cs" />
+    <Compile Include="Interfaces\IQueryOperationMetaResult.cs" />
+    <Compile Include="Interfaces\ISingleOperationMetaResult.cs" />
+    <Compile Include="OperationMetaResult\OperationMetaResultBase.cs" />
+    <Compile Include="OperationMetaResult\QueryOperationMetaResult.cs" />
+    <Compile Include="OperationMetaResult\SingleOperationMetaResult.cs" />
+    <Compile Include="OperationResults\BoolOperationResult.cs" />
+    <Compile Include="Interfaces\IRecordRange.cs" />
+    <Compile Include="Interfaces\IOperationResultBase.cs" />
+    <Compile Include="Interfaces\IBoolOperationResult.cs" />
+    <Compile Include="Interfaces\IQueryOperationResult.cs" />
+    <Compile Include="Interfaces\ISingleOperationResult.cs" />
+    <Compile Include="OperationResults\OperationResultBase.cs" />
+    <Compile Include="OperationResults\SingleOperationResult.cs" />
+    <Compile Include="OperationResults\QueryOperationResult.cs" />
+    <Compile Include="OperationResults\RecordRange.cs" />
+    <Compile Include="OperationMessageSupport\MessageOperationException.cs" />
+    <Compile Include="OperationMessageSupport\MessageOperationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecordRange.cs" />
-    <Compile Include="UsableEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Persistence\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties DocumentXCommentEditorState="&lt;HtmlEditState&gt;&#xA;  &lt;Attributes /&gt;&#xA;&lt;/HtmlEditState&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

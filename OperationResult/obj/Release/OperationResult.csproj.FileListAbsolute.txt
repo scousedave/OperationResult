@@ -3,3 +3,4 @@ C:\Projects\OperationResult\OperationResult\bin\Release\OperationResult.dll
 C:\Projects\OperationResult\OperationResult\bin\Release\OperationResult.pdb
 C:\Projects\OperationResult\OperationResult\obj\Release\OperationResult.dll
 C:\Projects\OperationResult\OperationResult\obj\Release\OperationResult.pdb
+C:\Projects\OperationResult\OperationResult\obj\Release\OperationResult.csprojAssemblyReference.cache
