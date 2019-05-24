@@ -1,0 +1,9 @@
+C:\Projects\OperationResult\OperationResult.Standard\bin\Release\netstandard2.0\OperationResult.Standard.deps.json
+C:\Projects\OperationResult\OperationResult.Standard\bin\Release\netstandard2.0\OperationResult.Standard.dll
+C:\Projects\OperationResult\OperationResult.Standard\bin\Release\netstandard2.0\OperationResult.Standard.pdb
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.csprojAssemblyReference.cache
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.csproj.CoreCompileInputs.cache
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.AssemblyInfoInputs.cache
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.AssemblyInfo.cs
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.dll
+C:\Projects\OperationResult\OperationResult.Standard\obj\Release\netstandard2.0\OperationResult.Standard.pdb

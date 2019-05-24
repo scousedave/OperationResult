@@ -1,0 +1,9 @@
+C:\Projects\OperationResult\OperationResult.Core\bin\Release\netcoreapp2.2\OperationResult.Core.deps.json
+C:\Projects\OperationResult\OperationResult.Core\bin\Release\netcoreapp2.2\OperationResult.Core.dll
+C:\Projects\OperationResult\OperationResult.Core\bin\Release\netcoreapp2.2\OperationResult.Core.pdb
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.csprojAssemblyReference.cache
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.csproj.CoreCompileInputs.cache
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.AssemblyInfoInputs.cache
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.AssemblyInfo.cs
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.dll
+C:\Projects\OperationResult\OperationResult.Core\obj\Release\netcoreapp2.2\OperationResult.Core.pdb

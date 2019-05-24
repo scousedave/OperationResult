@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Lawson.OperationResult.Standard</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OperationMetaResult\BoolOperationMetaResult.cs" />
+    <Compile Remove="OperationMetaResult\OperationMetaResultBase.cs" />
+    <Compile Remove="OperationMetaResult\QueryOperationMetaResult.cs" />
+    <Compile Remove="OperationMetaResult\SingleOperationMetaResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\OperationResult\Interfaces\IBoolOperationMetaResult.cs" Link="Interfaces\IBoolOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IBoolOperationResult.cs" Link="Interfaces\IBoolOperationResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IMessageOperationResult.cs" Link="Interfaces\IMessageOperationResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IOperationMetaResultBase.cs" Link="Interfaces\IOperationMetaResultBase.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IOperationMetaTextResult.cs" Link="Interfaces\IOperationMetaTextResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IOperationMetaTextResults.cs" Link="Interfaces\IOperationMetaTextResults.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IOperationResultBase.cs" Link="Interfaces\IOperationResultBase.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IQueryOperationMetaResult.cs" Link="Interfaces\IQueryOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IQueryOperationMetaResults.cs" Link="Interfaces\IQueryOperationMetaResults.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IQueryOperationResult.cs" Link="Interfaces\IQueryOperationResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\IRecordRange.cs" Link="Interfaces\IRecordRange.cs" />
+    <Compile Include="..\OperationResult\Interfaces\ISingleOperationMetaResult.cs" Link="Interfaces\ISingleOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\Interfaces\ISingleOperationResult.cs" Link="Interfaces\ISingleOperationResult.cs" />
+    <Compile Include="..\OperationResult\OperationMessageSupport\MessageOperationException.cs" Link="OperationMessageSupport\MessageOperationException.cs" />
+    <Compile Include="..\OperationResult\OperationMessageSupport\MessageOperationResult.cs" Link="OperationMessageSupport\MessageOperationResult.cs" />
+    <Compile Include="..\OperationResult\OperationMetaResult\BoolOperationMetaResult.cs" Link="OperationMetaResult\BoolOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\OperationMetaResult\OperationMetaResultBase.cs" Link="OperationMetaResult\OperationMetaResultBase.cs" />
+    <Compile Include="..\OperationResult\OperationMetaResult\QueryOperationMetaResult.cs" Link="OperationMetaResult\QueryOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\OperationMetaResult\SingleOperationMetaResult.cs" Link="OperationMetaResult\SingleOperationMetaResult.cs" />
+    <Compile Include="..\OperationResult\OperationResults\BoolOperationResult.cs" Link="OperationResults\BoolOperationResult.cs" />
+    <Compile Include="..\OperationResult\OperationResults\OperationResultBase.cs" Link="OperationResults\OperationResultBase.cs" />
+    <Compile Include="..\OperationResult\OperationResults\QueryOperationResult.cs" Link="OperationResults\QueryOperationResult.cs" />
+    <Compile Include="..\OperationResult\OperationResults\RecordRange.cs" Link="OperationResults\RecordRange.cs" />
+    <Compile Include="..\OperationResult\OperationResults\SingleOperationResult.cs" Link="OperationResults\SingleOperationResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="OperationMetaResult\" />
+    <Folder Include="OperationResults\" />
+    <Folder Include="OperationMessageSupport\" />
+  </ItemGroup>
+
+</Project>
